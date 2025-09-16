@@ -33,7 +33,9 @@ const Projects: React.FC = () => {
                     {dummyData.projects.map((project, index) => (
                         <div key={index} className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-4">
                             <div className="bg-[#1A1A1A] border border-gray-800 rounded-lg p-6 h-full flex flex-col hover:-translate-y-2 transition-transform duration-300 shadow-lg hover:shadow-xl hover:shadow-pink-500/20">
-                                <div className={`h-40 rounded-md bg-gradient-to-r ${project.gradient} mb-4`}></div>
+                                <div className={`h-40 rounded-md mb-4`}>
+                                    <img src={project.image} alt={project.title} className="w-full h-full object-cover rounded-md" />
+                                </div>
                                 <a
                                     href={project.url}
                                     target="_blank"

@@ -1,4 +1,9 @@
 import { Rocket, GraduationCap, GitBranch } from 'lucide-react';
+import xypLogo from '../assets/xypLogo.jpeg';
+import coffeeShop from '../assets/coffeeShop.png';
+import contactManager from '../assets/contactManager.png';
+import bakeryBlog from '../assets/bakeryBlog.png';
+import ecommerce from '../assets/ecommerce.png';
 
 const dummyData = {
     info: {
@@ -34,31 +39,9 @@ const dummyData = {
         //     description: 'Exploring nature trails and conquering new peaks.',
         // },
     ],
-    techSkills: [
-        {
-            icon: 'Rocket',
-            bgColor: 'bg-red-500',
-            iconColor: 'text-red-400',
-            name: 'Python',
-            description: 'Blasting off with backend logic!',
-        },
-        {
-            icon: 'Zap',
-            bgColor: 'bg-yellow-500',
-            iconColor: 'text-yellow-400',
-            name: 'JavaScript',
-            description: 'Making web pages shockingly interactive.',
-        },
-        {
-            icon: 'Award',
-            bgColor: 'bg-blue-500',
-            iconColor: 'text-blue-400',
-            name: 'Java',
-            description: 'Building robust and scalable applications.',
-        },
-    ],
     projects: [
         {
+            image: xypLogo,
             title: 'Xyp service call client',
             description: 'Xyp service call client using fingerprint authentication. Built with C#.',
             tags: ['C#', 'SOAP', 'Windows Forms', 'FingerPrint'],
@@ -66,6 +49,7 @@ const dummyData = {
             url: 'https://github.com/buyakaa13/xyp-csharp',
         },
         {
+            image: ecommerce,
             title: 'E-commerce Application',
             description: 'A serverless full-stack E-Commerce web app using React and Node.js, deployed entirely on AWS.',
             tags: ['React', 'Typescript', 'Node.js', 'Tailwind CSS', 'AWS'],
@@ -73,6 +57,7 @@ const dummyData = {
             url: 'https://github.com/buyakaa13/cloud-project-backend',
         },
         {
+            image: bakeryBlog,
             title: 'Bakery Blog',
             description: 'A blog management application where users can create, and interact with blog posts.',
             tags: ['React', 'Typescript', 'TailwindCSS', 'Node.js', 'Express'],
@@ -80,6 +65,7 @@ const dummyData = {
             url: 'https://github.com/buyakaa13/bakery_blog',
         },
         {
+            image: coffeeShop,
             title: 'Coffee shop',
             description: 'A coffee shop creative API services. Built with React and Three.js.',
             tags: ['Java', 'Spring Boot', 'Hibernate', 'Docker', 'ArtemisMQ'],
@@ -87,6 +73,7 @@ const dummyData = {
             url: 'https://github.com/buyakaa13/CS544_Project',
         },
         {
+            image: contactManager,
             title: 'Contact Manager App',
             description: 'A contact management application where users can create, and interact with contacts.',
             tags: ['React', 'Typescript', 'TailwindCSS', 'Node.js', 'Express'],
