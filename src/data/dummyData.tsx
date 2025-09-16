@@ -101,8 +101,8 @@ const dummyData = {
             iconBgColor: 'bg-red-900/20',
         },
         {
-            date: 'Software Developer',
-            title: 'Junior Web Developer',
+            date: 'Jul 2018 - Aug 2021',
+            title: 'Software Developer',
             company: 'SmartLogic LLC',
             companyLink: 'https://smartlogic.mn/',
             icon: GraduationCap,
