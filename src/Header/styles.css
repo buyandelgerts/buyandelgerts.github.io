@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+  color: var(--text-primary);
+}
+
+.ctaButton {
+  background: linear-gradient(
+    to right,
+    var(--accent-pink),
+    var(--accent-orange)
+  );
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ctaButton:hover {
+  transform: scale(1.05);
+}
