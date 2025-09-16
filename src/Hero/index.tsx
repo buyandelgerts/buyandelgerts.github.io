@@ -14,8 +14,8 @@ const Hero: React.FC<HeaderProps> = ({ handleScroll }) => (
             <span className="text-pink-500">{dummyData.info.profession}</span>
         </h2>
         <p className="max-w-2xl mx-auto text-gray-400 mb-8">
-            I build beautiful, functional, and user-centric web experiences. Passionate about clean code, innovative design, and pushing the
-            boundaries of what's possible on the web.
+            I create robust and user-focused software solutions across backend and frontend technologies. Passionate about clean code, continuous
+            learning, and leveraging cloud and AI tools to deliver innovation.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
             <button
