@@ -8,7 +8,7 @@ import ecommerce from '../assets/ecommerce.png';
 const dummyData = {
     info: {
         name: 'Buyandelger Tsendsuren',
-        profession: 'Software Developer',
+        profession: 'Software Engineer',
         location: 'Chicago, IL',
     },
     contact: {
@@ -67,7 +67,7 @@ const dummyData = {
         {
             image: coffeeShop,
             title: 'Coffee shop',
-            description: 'A coffee shop creative API services. Built with React and Three.js.',
+            description: 'A coffee shop creative API services.',
             tags: ['Java', 'Spring Boot', 'Hibernate', 'Docker', 'ArtemisMQ'],
             gradient: 'from-pink-500 to-purple-600',
             url: 'https://github.com/buyakaa13/CS544_Project',
