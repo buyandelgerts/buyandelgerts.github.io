@@ -4,6 +4,7 @@ import coffeeShop from '../assets/coffeeShop.png';
 import contactManager from '../assets/contactManager.png';
 import bakeryBlog from '../assets/bakeryBlog.png';
 import ecommerce from '../assets/ecommerce.png';
+import cozyCoffeeShop from '../assets/cozyCoffeeShop.png';
 
 const dummyData = {
     info: {
@@ -40,6 +41,14 @@ const dummyData = {
         // },
     ],
     projects: [
+        {
+            image: cozyCoffeeShop,
+            title: 'Cozy Coffee shop',
+            description: 'Coffee shop management system with user authentication and authorization using JWT. (user, pass123)',
+            tags: ['SpringBoot', 'JWT', 'Security', 'Typescript', 'DynamoDB', 'Elasticbeanstalk', 'CloudFront'],
+            gradient: 'from-orange-400 to-rose-400',
+            url: 'https://d1ypkqd9b2hjim.cloudfront.net',
+        },
         {
             image: xypLogo,
             title: 'Xyp service call client',

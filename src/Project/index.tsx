@@ -7,6 +7,7 @@ const Projects: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const itemsToShow = 3;
     const totalItems = dummyData.projects.length;
+    const totalPages = totalItems > itemsToShow ? totalItems - itemsToShow + 1 : 1;
 
     useEffect(() => {
         if (totalItems <= itemsToShow) return;
@@ -17,6 +18,10 @@ const Projects: React.FC = () => {
 
         return () => clearInterval(interval);
     }, [totalItems]);
+
+    const handleDotClick = (index: number) => {
+        setCurrentIndex(index);
+    };
 
     return (
         <section id="projects" className="py-20 md:py-28">
@@ -57,6 +62,21 @@ const Projects: React.FC = () => {
                     ))}
                 </div>
             </div>
+            {/* Pager Dots */}
+            {totalPages > 1 && (
+                <div className="flex justify-center space-x-2 mt-8">
+                    {Array.from({ length: totalPages }).map((_, i) => (
+                        <button
+                            key={i}
+                            onClick={() => handleDotClick(i)}
+                            className={`w-3 h-3 rounded-full transition-colors ${
+                                currentIndex === i ? 'bg-pink-500' : 'bg-gray-600 hover:bg-gray-400'
+                            }`}
+                            aria-label={`Go to slide ${i + 1}`}
+                        />
+                    ))}
+                </div>
+            )}
         </section>
     );
 };
