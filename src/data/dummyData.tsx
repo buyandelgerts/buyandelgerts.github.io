@@ -5,6 +5,7 @@ import contactManager from '../assets/contactManager.png';
 import bakeryBlog from '../assets/bakeryBlog.png';
 import ecommerce from '../assets/ecommerce.png';
 import cozyCoffeeShop from '../assets/cozyCoffeeShop.png';
+import resumeJobMatcher from '../assets/resumeMatcher.png';
 
 const dummyData = {
     info: {
@@ -41,6 +42,14 @@ const dummyData = {
         // },
     ],
     projects: [
+        {
+            image: resumeJobMatcher,
+            title: 'Resume Job Matcher',
+            description: 'This is a simple Java app that checks how well your resume fits a job description.',
+            tags: ['SpringBoot', 'ThymeLeaf', 'Ollama', 'TailwindCSS'],
+            gradient: 'from-orange-400 to-rose-400',
+            url: 'https://github.com/buyandelgerts/ResumeJobMatcher.git',
+        },
         {
             image: cozyCoffeeShop,
             title: 'Cozy Coffee shop',
@@ -92,7 +101,7 @@ const dummyData = {
     ],
     experiences: [
         {
-            date: 'May 2023 - Aug 2024',
+            date: 'May 2023 - Aug 2025',
             title: 'System Engineer',
             company: 'E-Mongolia academy',
             companyLink: 'https://ema.gov.mn',
