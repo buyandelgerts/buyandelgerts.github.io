@@ -7,6 +7,8 @@ import ecommerce from "../assets/ecommerce.png";
 import cozyCoffeeShop from "../assets/cozyCoffeeShop.png";
 import resumeJobMatcher from "../assets/resumeMatcher.png";
 import movieETL from "../assets/movieETL.png";
+import moodAnime from "../assets/moodBasedAnime.png";
+import aiLeaseAssist from "../assets/aiLeaseAssist.png";
 
 const dummyData = {
   info: {
@@ -31,18 +33,44 @@ const dummyData = {
       title: "Reading",
       description: "Diving into sci-fi worlds and non-fiction books.",
     },
-    {
-      icon: "Music",
-      title: "Music",
-      description: "Playing the guitar and discovering new artists and genres.",
-    },
     // {
-    //     icon: "Mountain",
-    //     title: 'Hiking',
-    //     description: 'Exploring nature trails and conquering new peaks.',
+    //   icon: "Music",
+    //   title: "Music",
+    //   description: "Playing the guitar and discovering new artists and genres.",
     // },
+    {
+      icon: "Mountain",
+      title: "Hiking",
+      description: "Exploring nature trails and conquering new peaks.",
+    },
   ],
   projects: [
+    {
+      image: aiLeaseAssist,
+      title: "AI Lease Assist",
+      description:
+        "AI-powered lease agreement analyzer that detects red flags, green flags, and generates negotiation emails using CrewAI multi-agent system.",
+      tags: [
+        "Python",
+        "OpenAI",
+        "React",
+        "Crew AI",
+        "MCP",
+        "PostgreSQL",
+        "TailwindCSS",
+      ],
+      gradient: "from-orange-400 to-rose-400",
+      url: "https://github.com/buyandelgerts/leaseAssist.git",
+    },
+    {
+      image: moodAnime,
+      title: "Mood-Based Anime Recommender",
+      description:
+        "This chatbot allows users to select their current mood, optionally enter extra preferences, and receive personalized anime recommendations. It also displays anime posters and trailer links.",
+      tags: ["Python", "OpenAI LLM", "Gradio", "Jikan API"],
+      gradient: "from-orange-400 to-rose-400",
+      url: "https://github.com/buyandelgerts/AI-Engineering-course.git",
+    },
     {
       image: movieETL,
       title: "Movie ETL",
