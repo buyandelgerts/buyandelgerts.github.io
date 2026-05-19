@@ -8,7 +8,7 @@ import cozyCoffeeShop from "../assets/cozyCoffeeShop.png";
 import resumeJobMatcher from "../assets/resumeMatcher.png";
 import movieETL from "../assets/movieETL.png";
 import moodAnime from "../assets/moodBasedAnime.png";
-import aiLeaseAssist from "../assets/aiLeaseAssist.png";
+import aiLeaseAssist from "../assets/aiAssistLease.png";
 
 const dummyData = {
   info: {
@@ -17,10 +17,10 @@ const dummyData = {
     location: "Chicago, IL",
   },
   contact: {
-    email: "buyan.tsendsuren@gmail.com",
+    email: "developer.buyan@gmail.com",
     phone: "+1-641-233-9584",
     linkedin: "https://www.linkedin.com/in/tsbuyandelger",
-    github: "https://www.github.com/buyakaa13",
+    github: "https://www.github.com/buyandelgerts",
   },
   interests: [
     {

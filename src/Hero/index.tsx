@@ -32,7 +32,7 @@ const Hero: React.FC<HeaderProps> = ({ handleScroll }) => (
         View My Work
       </button>
       <a
-        href="https://drive.google.com/file/d/1Ec_TSukCDSENCAX8PSR2NyvLZ7Am_1uZ/view"
+        href="https://drive.google.com/file/d/1pUo0f1iElUesT1_wJ15xoWVZc909S8L0/view"
         target="_blank"
         rel="noopener noreferrer"
         className="font-semibold text-white hover:text-pink-400 transition-colors"
