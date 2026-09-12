@@ -13,11 +13,11 @@ import aiLeaseAssist from "../assets/aiAssistLease.png";
 const dummyData = {
   info: {
     name: "Buyandelger Tsendsuren",
-    profession: "Software Engineer",
+    profession: "Full Stack Engineer",
     location: "Chicago, IL",
   },
   contact: {
-    email: "developer.buyan@gmail.com",
+    email: "buyan.tsendsuren@gmail.com",
     phone: "+1-641-233-9584",
     linkedin: "https://www.linkedin.com/in/tsbuyandelger",
     github: "https://www.github.com/buyandelgerts",
